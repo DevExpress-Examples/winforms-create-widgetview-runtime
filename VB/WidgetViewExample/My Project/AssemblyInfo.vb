@@ -1,4 +1,12 @@
-Imports Microsoft.VisualBasic
+﻿' Developer Express Code Central Example:
+' How To: Create WidgetView at runtime
+' 
+' This example demonstrates how to create and customize WidgetView with 2
+' StackGroups at runtime.
+' 
+' You can find sample updates and versions for different programming languages here:
+' http://www.devexpress.com/example=E5003
+
 Imports System.Reflection
 Imports System.Runtime.CompilerServices
 Imports System.Runtime.InteropServices
@@ -11,7 +19,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyConfiguration("")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("WidgetViewExample")>
-<Assembly: AssemblyCopyright("Copyright �  2013")>
+<Assembly: AssemblyCopyright("Copyright ©  2013")>
 <Assembly: AssemblyTrademark("")>
 <Assembly: AssemblyCulture("")>
 

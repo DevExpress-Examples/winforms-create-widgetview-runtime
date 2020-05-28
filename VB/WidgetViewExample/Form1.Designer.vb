@@ -1,7 +1,14 @@
-Imports Microsoft.VisualBasic
-Imports System
+﻿' Developer Express Code Central Example:
+' How To: Create WidgetView at runtime
+' 
+' This example demonstrates how to create and customize WidgetView with 2
+' StackGroups at runtime.
+' 
+' You can find sample updates and versions for different programming languages here:
+' http://www.devexpress.com/example=E5003
+
 Namespace WidgetViewExample
-	Public Partial Class Form1
+	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
 		''' </summary>
@@ -12,7 +19,7 @@ Namespace WidgetViewExample
 		''' </summary>
 		''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
 		Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-			If disposing AndAlso (Not components Is Nothing) Then
+			If disposing AndAlso (components IsNot Nothing) Then
 				components.Dispose()
 			End If
 			MyBase.Dispose(disposing)
@@ -40,7 +47,8 @@ Namespace WidgetViewExample
 			Me.ClientSize = New System.Drawing.Size(670, 403)
 			Me.Name = "Form1"
 			Me.Text = "Form1"
-'			Me.Load += New System.EventHandler(Me.Form1_Load);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.Load += new System.EventHandler(this.Form1_Load);
 			Me.ResumeLayout(False)
 
 		End Sub

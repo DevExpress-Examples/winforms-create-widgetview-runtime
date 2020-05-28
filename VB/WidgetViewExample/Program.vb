@@ -1,4 +1,12 @@
-Imports Microsoft.VisualBasic
+﻿' Developer Express Code Central Example:
+' How To: Create WidgetView at runtime
+' 
+' This example demonstrates how to create and customize WidgetView with 2
+' StackGroups at runtime.
+' 
+' You can find sample updates and versions for different programming languages here:
+' http://www.devexpress.com/example=E5003
+
 Imports System
 Imports System.Collections.Generic
 Imports System.Linq
@@ -6,17 +14,15 @@ Imports System.Threading.Tasks
 Imports System.Windows.Forms
 
 Namespace WidgetViewExample
-	Friend Class Program
+	Friend Module Program
 		''' <summary>
 		''' The main entry point for the application.
 		''' </summary>
-		Private Sub New()
-		End Sub
-		<STAThread> _
-		Shared Sub Main()
+		<STAThread>
+		Sub Main()
 			Application.EnableVisualStyles()
 			Application.SetCompatibleTextRenderingDefault(False)
 			Application.Run(New Form1())
 		End Sub
-	End Class
+	End Module
 End Namespace
