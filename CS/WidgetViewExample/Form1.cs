@@ -38,7 +38,7 @@ namespace WidgetViewExample {
         WidgetView view;
         StackGroup group1, group2;
         void AddDocumentManager() {
-            DocumentManager dM = new DocumentManager();
+            DocumentManager dM = new DocumentManager(components);
             view = new WidgetView();
             dM.View = view;
             view.AllowDocumentStateChangeAnimation = DevExpress.Utils.DefaultBoolean.True;
@@ -52,8 +52,7 @@ namespace WidgetViewExample {
 
         int count = 1;
         void AddDocuments() {
-            Document document = view.AddDocument("Document " + count.ToString(), "ucPreview") as Document;
-            view.AddDocument(new ucPreview());
+            Document document = view.AddDocument(new ucPreview()) as Document;
             document.MaximizedControl = new ucMaximizedContent();
             count++;
         }
