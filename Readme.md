@@ -9,7 +9,7 @@
 # How To: Create WidgetView at runtime
 
 
-<p>This example demonstrates how to create and customize WidgetView with 2 StackGroups at runtime.</p>
+<p>This example demonstrates how to create and customize <a href="https://docs.devexpress.com/WindowsForms/16239/controls-and-libraries/application-ui-manager/views/widget-view">WidgetView</a> with 2 StackGroups at runtime.</p>
 
 <br/>
 
