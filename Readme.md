@@ -24,7 +24,7 @@ This example demonstrates how to create and customize a [Widget View](https://do
 * [Application UI Manager](https://docs.devexpress.com/WindowsForms/11359/controls-and-libraries/application-ui-manager)
 * [How To: Populate the Widget View in Code](https://docs.devexpress.com/WindowsForms/114785/controls-and-libraries/application-ui-manager/examples/how-to-populate-the-widget-view-in-code)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-create-widgetview-runtime&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-create-widgetview-runtime&~~~was_helpful=no)
 
